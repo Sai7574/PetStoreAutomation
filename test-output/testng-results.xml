@@ -1,33 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-28T17:33:05 IST" name="PetSuite" finished-at="2023-03-28T17:33:20 IST" duration-ms="14653">
+  <suite started-at="2023-04-02T16:26:59 IST" name="PetSuite" finished-at="2023-04-02T16:27:41 IST" duration-ms="42210">
     <groups>
     </groups>
-    <test started-at="2023-03-28T17:33:05 IST" name="PetTest" finished-at="2023-03-28T17:33:20 IST" duration-ms="14653">
+    <test started-at="2023-04-02T16:26:59 IST" name="PetTest" finished-at="2023-04-02T16:27:41 IST" duration-ms="42210">
       <class name="api.test.UserTests2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests2@4d5650ae]" started-at="2023-03-28T17:33:06 IST" name="setup" finished-at="2023-03-28T17:33:07 IST" duration-ms="1623" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests2@537f60bf]" started-at="2023-04-02T16:27:00 IST" name="setup" finished-at="2023-04-02T16:27:01 IST" duration-ms="1347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests2@4d5650ae]" started-at="2023-03-28T17:33:07 IST" name="testPostUser" finished-at="2023-03-28T17:33:13 IST" duration-ms="6060" status="PASS">
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests2@537f60bf]" started-at="2023-04-02T16:27:01 IST" name="testPostUser" finished-at="2023-04-02T16:27:07 IST" duration-ms="5916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests2@4d5650ae]" started-at="2023-03-28T17:33:14 IST" name="testGetUserByName" finished-at="2023-03-28T17:33:15 IST" duration-ms="1610" status="PASS">
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests2@537f60bf]" started-at="2023-04-02T16:27:07 IST" name="testGetUserByName" finished-at="2023-04-02T16:27:09 IST" duration-ms="1800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserByName -->
-        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests2@4d5650ae]" started-at="2023-03-28T17:33:15 IST" name="testUpdateUserByName" finished-at="2023-03-28T17:33:18 IST" duration-ms="3152" status="PASS">
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests2@537f60bf]" started-at="2023-04-02T16:27:09 IST" name="testUpdateUserByName" finished-at="2023-04-02T16:27:14 IST" duration-ms="5101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUserByName -->
-        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests2@4d5650ae]" started-at="2023-03-28T17:33:18 IST" name="testDeleteUserByName" finished-at="2023-03-28T17:33:20 IST" duration-ms="1510" status="PASS">
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests2@537f60bf]" started-at="2023-04-02T16:27:14 IST" name="testDeleteUserByName" finished-at="2023-04-02T16:27:17 IST" duration-ms="2665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUserByName -->
       </class> <!-- api.test.UserTests2 -->
+      <class name="api.test.PetTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.PetTests@4b45a2f5]" started-at="2023-04-02T16:27:25 IST" name="setup" finished-at="2023-04-02T16:27:25 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateStore()[pri:1, instance:api.test.PetTests@4b45a2f5]" started-at="2023-04-02T16:27:25 IST" name="testCreateStore" finished-at="2023-04-02T16:27:29 IST" duration-ms="4398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStore -->
+        <test-method signature="testGetStore()[pri:2, instance:api.test.PetTests@4b45a2f5]" started-at="2023-04-02T16:27:29 IST" name="testGetStore" finished-at="2023-04-02T16:27:32 IST" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStore -->
+        <test-method signature="testUpdateStore()[pri:3, instance:api.test.PetTests@4b45a2f5]" started-at="2023-04-02T16:27:32 IST" name="testUpdateStore" finished-at="2023-04-02T16:27:39 IST" duration-ms="6509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStore -->
+        <test-method signature="testDeletePet()[pri:4, instance:api.test.PetTests@4b45a2f5]" started-at="2023-04-02T16:27:39 IST" name="testDeletePet" finished-at="2023-04-02T16:27:41 IST" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+      </class> <!-- api.test.PetTests -->
+      <class name="api.test.StoreTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.StoreTests@38cee291]" started-at="2023-04-02T16:27:17 IST" name="setup" finished-at="2023-04-02T16:27:17 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.StoreTests@38cee291]" started-at="2023-04-02T16:27:17 IST" name="testPostUser" finished-at="2023-04-02T16:27:20 IST" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser()[pri:2, instance:api.test.StoreTests@38cee291]" started-at="2023-04-02T16:27:20 IST" name="testGetUser" finished-at="2023-04-02T16:27:22 IST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testDeleteUser()[pri:3, instance:api.test.StoreTests@38cee291]" started-at="2023-04-02T16:27:22 IST" name="testDeleteUser" finished-at="2023-04-02T16:27:25 IST" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.test.StoreTests -->
     </test> <!-- PetTest -->
   </suite> <!-- PetSuite -->
 </testng-results>
